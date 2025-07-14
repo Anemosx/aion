@@ -1,0 +1,47 @@
+<resources>
+	<bitmap id="icons" filename="icons.png" />
+
+	<jsonData id="moon_phase_new_moon">{"x":0, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_waxing_crescent">{"x":28, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_first_quarter">{"x":56, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_waxing_gibbous">{"x":84, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_full_moon">{"x":112, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_waning_gibbous">{"x":140, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_last_quarter">{"x":168, "y":0, "width":28, "height":28}</jsonData>
+    <jsonData id="moon_phase_waning_crescent">{"x":196, "y":0, "width":28, "height":28}</jsonData>
+
+    <jsonData id="sunny">{"x":0, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="cloudy">{"x":28, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="partly_cloudy">{"x":56, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="partly_cloudy_night">{"x":84, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="partly_cloudy_rain">{"x":112, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="thunder">{"x":0, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="rainy">{"x":28, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="snowy">{"x":56, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="windy">{"x":84, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="partly_cloudy_rain_night">{"x":112, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="sleet">{"x":0, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="foggy">{"x":28, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="clear_night">{"x":56, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="windy_rain">{"x":84, "y":84, "width":28, "height":28}</jsonData>
+
+    <jsonData id="uv_index_0">{"x":140, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_1">{"x":168, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_2">{"x":196, "y":28, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_3">{"x":140, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_4">{"x":168, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_5">{"x":196, "y":56, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_6">{"x":140, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_7">{"x":168, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_8">{"x":196, "y":84, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_9">{"x":168, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="uv_index_10">{"x":196, "y":112, "width":28, "height":28}</jsonData>
+
+    <jsonData id="celsius">{"x":0, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="fahrenheit">{"x":28, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="percent">{"x":56, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="dnd">{"x":84, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="train_readiness">{"x":112, "y":112, "width":28, "height":28}</jsonData>
+    <jsonData id="notification">{"x":140, "y":112, "width":28, "height":28}</jsonData>
+
+</resources>
