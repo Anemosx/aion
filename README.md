@@ -1,6 +1,6 @@
 # Aion Watch Face
 
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![MIT license](https://img.shields.io/badge/license-MIT-blue)
 ![Connect IQ](https://img.shields.io/badge/Connect%20IQ-5.1.0%2B-blue)
 ![Language](https://img.shields.io/badge/Language-Monkey%20C-orange)
 ![Platform](https://img.shields.io/badge/Platform-Garmin-lightgrey)
