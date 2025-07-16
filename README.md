@@ -13,6 +13,14 @@ A modern, data-rich analog watch face for Garmin devices, designed for clarity a
 
 ![Aion Watch Face Screenshot](docs/screenshot.png)
 
+## Download
+
+<p align="center">
+  <a href="https://apps.garmin.com/apps/3e59c906-8e68-45c0-8965-697fbc755c17">
+    <img alt="Download from Connect IQ Store" width="240" src="https://developer.garmin.com/static/connect-iq_badge-dark-35b152d2074fb5abd7394662f78d8a4f.svg" />
+  </a>
+</p>
+
 ## Features
 
 -   **Classic Analog Display**: Elegant hour, minute, and second hands. The seconds hand is visible only when the watch is active to conserve battery.
