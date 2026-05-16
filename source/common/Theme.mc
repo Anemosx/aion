@@ -95,3 +95,48 @@ module ThemeSizing {
         return 11.0f; // Default for other sizes
     }
 }
+
+//!
+//! This module provides utilities for mapping configurable color indices to actual color values.
+//!
+module ThemeUtils {
+    //! Maps a color index to its corresponding Graphics.ColorType value.
+    //! @param colorIndex The color index (0-15).
+    //! @return The corresponding Graphics.ColorType.
+    function getColorByIndex(colorIndex as Number) as Graphics.ColorType {
+        if (colorIndex == 0) {
+            return 0xFF8A80;  // Orange-Red - warm accent
+        } else if (colorIndex == 1) {
+            return 0x9EFFA1;  // Light Green - cool accent
+        } else if (colorIndex == 2) {
+            return 0x80B3FF;  // Light Blue - cool accent
+        } else if (colorIndex == 3) {
+            return 0xFFD47E;  // Yellow - warm accent
+        } else if (colorIndex == 4) {
+            return 0xF6A3D7;  // Pink - warm accent
+        } else if (colorIndex == 5) {
+            return 0x7EE8FA;  // Cyan - cool accent
+        } else if (colorIndex == 6) {
+            return Graphics.COLOR_WHITE;  // White - neutral
+        } else if (colorIndex == 7) {
+            return Graphics.COLOR_DK_GRAY;  // Gray - neutral
+        } else if (colorIndex == 8) {
+            return 0xFFB74D;  // Orange - warm complement
+        } else if (colorIndex == 9) {
+            return 0xC77DFF;  // Purple - cool complement
+        } else if (colorIndex == 10) {
+            return 0x29B6F6;  // Blue - cool extension
+        } else if (colorIndex == 11) {
+            return 0x66BB6A;  // Dark Green - cool extension
+        } else if (colorIndex == 12) {
+            return 0xFF8A65;  // Brown - warm extension
+        } else if (colorIndex == 13) {
+            return 0xEC407A;  // Magenta - warm extension
+        } else if (colorIndex == 14) {
+            return 0xB0BEC5;  // Light Gray - neutral complement
+        } else if (colorIndex == 15) {
+            return 0x42A5F5;  // Navy Blue - cool extension
+        }
+        return Graphics.COLOR_WHITE;
+    }
+}

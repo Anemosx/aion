@@ -1,0 +1,773 @@
+<settings>
+
+    <setting propertyKey="@Properties.Arc1DataType" title="@Strings.Arc1DataTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.None</listEntry>
+            <listEntry value="1">@Strings.BodyBattery</listEntry>
+            <listEntry value="2">@Strings.Stress</listEntry>
+            <listEntry value="3">@Strings.Steps</listEntry>
+            <listEntry value="4">@Strings.Calories</listEntry>
+            <listEntry value="5">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="6">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="7">@Strings.Distance</listEntry>
+            <listEntry value="8">@Strings.ElevationGain</listEntry>
+            <listEntry value="9">@Strings.RespirationRate</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc1Color" title="@Strings.Arc1ColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Coral</listEntry>
+            <listEntry value="1">@Strings.MintGreen</listEntry>
+            <listEntry value="2">@Strings.SkyBlue</listEntry>
+            <listEntry value="3">@Strings.GoldenYellow</listEntry>
+            <listEntry value="4">@Strings.RosePink</listEntry>
+            <listEntry value="5">@Strings.Aqua</listEntry>
+            <listEntry value="6">@Strings.White</listEntry>
+            <listEntry value="7">@Strings.Gray</listEntry>
+            <listEntry value="8">@Strings.Amber</listEntry>
+            <listEntry value="9">@Strings.Magenta</listEntry>
+            <listEntry value="10">@Strings.BrightBlue</listEntry>
+            <listEntry value="11">@Strings.ForestGreen</listEntry>
+            <listEntry value="12">@Strings.Terracotta</listEntry>
+            <listEntry value="13">@Strings.HotPink</listEntry>
+            <listEntry value="14">@Strings.LightGray</listEntry>
+            <listEntry value="15">@Strings.OceanBlue</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc1Goal" title="@Strings.Arc1GoalTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Auto</listEntry>
+
+            <!-- Steps goals -->
+            <listEntry value="1">@Strings.Goal500</listEntry>
+            <listEntry value="2">@Strings.Goal1000</listEntry>
+            <listEntry value="3">@Strings.Goal2000</listEntry>
+            <listEntry value="4">@Strings.Goal3000</listEntry>
+            <listEntry value="5">@Strings.Goal4000</listEntry>
+            <listEntry value="6">@Strings.Goal5000</listEntry>
+            <listEntry value="7">@Strings.Goal7500</listEntry>
+            <listEntry value="8">@Strings.Goal10000</listEntry>
+            <listEntry value="9">@Strings.Goal12500</listEntry>
+            <listEntry value="10">@Strings.Goal15000</listEntry>
+            <listEntry value="11">@Strings.Goal20000</listEntry>
+            <listEntry value="12">@Strings.Goal25000</listEntry>
+            <listEntry value="13">@Strings.Goal30000</listEntry>
+            <listEntry value="14">@Strings.Goal35000</listEntry>
+            <listEntry value="15">@Strings.Goal40000</listEntry>
+            <listEntry value="16">@Strings.Goal50000</listEntry>
+            <listEntry value="17">@Strings.Goal60000</listEntry>
+
+            <!-- Active Minutes goals -->
+            <listEntry value="18">@Strings.Goal1</listEntry>
+            <listEntry value="19">@Strings.Goal3</listEntry>
+            <listEntry value="20">@Strings.Goal5</listEntry>
+            <listEntry value="21">@Strings.Goal10</listEntry>
+            <listEntry value="22">@Strings.Goal15</listEntry>
+            <listEntry value="23">@Strings.Goal20</listEntry>
+            <listEntry value="24">@Strings.Goal30</listEntry>
+            <listEntry value="25">@Strings.Goal45</listEntry>
+            <listEntry value="26">@Strings.Goal60</listEntry>
+            <listEntry value="27">@Strings.Goal90</listEntry>
+            <listEntry value="28">@Strings.Goal120</listEntry>
+            <listEntry value="29">@Strings.Goal150</listEntry>
+            <listEntry value="30">@Strings.Goal180</listEntry>
+            <listEntry value="31">@Strings.Goal240</listEntry>
+            <listEntry value="32">@Strings.Goal300</listEntry>
+
+            <!-- Calories goals -->
+            <listEntry value="33">@Strings.Goal50</listEntry>
+            <listEntry value="34">@Strings.Goal100</listEntry>
+            <listEntry value="35">@Strings.Goal150</listEntry>
+            <listEntry value="36">@Strings.Goal200</listEntry>
+            <listEntry value="37">@Strings.Goal300</listEntry>
+            <listEntry value="38">@Strings.Goal600</listEntry>
+            <listEntry value="39">@Strings.Goal800</listEntry>
+            <listEntry value="40">@Strings.Goal1000</listEntry>
+            <listEntry value="41">@Strings.Goal1200</listEntry>
+            <listEntry value="42">@Strings.Goal1500</listEntry>
+            <listEntry value="43">@Strings.Goal1800</listEntry>
+            <listEntry value="44">@Strings.Goal2000</listEntry>
+            <listEntry value="45">@Strings.Goal2200</listEntry>
+            <listEntry value="46">@Strings.Goal2500</listEntry>
+            <listEntry value="47">@Strings.Goal3000</listEntry>
+            <listEntry value="48">@Strings.Goal3500</listEntry>
+            <listEntry value="49">@Strings.Goal4000</listEntry>
+
+            <!-- Floors goals -->
+            <listEntry value="50">@Strings.Goal0</listEntry>
+            <listEntry value="51">@Strings.Goal1</listEntry>
+            <listEntry value="52">@Strings.Goal2</listEntry>
+            <listEntry value="53">@Strings.Goal3</listEntry>
+            <listEntry value="54">@Strings.Goal5</listEntry>
+            <listEntry value="55">@Strings.Goal10</listEntry>
+            <listEntry value="56">@Strings.Goal15</listEntry>
+            <listEntry value="57">@Strings.Goal20</listEntry>
+            <listEntry value="58">@Strings.Goal25</listEntry>
+            <listEntry value="59">@Strings.Goal30</listEntry>
+            <listEntry value="60">@Strings.Goal40</listEntry>
+            <listEntry value="61">@Strings.Goal50</listEntry>
+            <listEntry value="62">@Strings.Goal75</listEntry>
+            <listEntry value="63">@Strings.Goal100</listEntry>
+
+            <!-- Distance goals -->
+            <listEntry value="64">@Strings.Goal0_2km</listEntry>
+            <listEntry value="65">@Strings.Goal0_5km</listEntry>
+            <listEntry value="66">@Strings.Goal1km</listEntry>
+            <listEntry value="67">@Strings.Goal1_5km</listEntry>
+            <listEntry value="68">@Strings.Goal2km</listEntry>
+            <listEntry value="69">@Strings.Goal2_5km</listEntry>
+            <listEntry value="70">@Strings.Goal5km</listEntry>
+            <listEntry value="71">@Strings.Goal7_5km</listEntry>
+            <listEntry value="72">@Strings.Goal10km</listEntry>
+            <listEntry value="73">@Strings.Goal15km</listEntry>
+            <listEntry value="74">@Strings.Goal20km</listEntry>
+            <listEntry value="75">@Strings.Goal25km</listEntry>
+            <listEntry value="76">@Strings.Goal30km</listEntry>
+            <listEntry value="77">@Strings.Goal40km</listEntry>
+            <listEntry value="78">@Strings.Goal42km</listEntry>
+
+            <!-- Elevation goals -->
+            <listEntry value="79">@Strings.Goal5m</listEntry>
+            <listEntry value="80">@Strings.Goal10m</listEntry>
+            <listEntry value="81">@Strings.Goal20m</listEntry>
+            <listEntry value="82">@Strings.Goal30m</listEntry>
+            <listEntry value="83">@Strings.Goal50m</listEntry>
+            <listEntry value="84">@Strings.Goal100m</listEntry>
+            <listEntry value="85">@Strings.Goal200m</listEntry>
+            <listEntry value="86">@Strings.Goal500m</listEntry>
+            <listEntry value="87">@Strings.Goal1000m</listEntry>
+            <listEntry value="88">@Strings.Goal1500m</listEntry>
+            <listEntry value="89">@Strings.Goal2000m</listEntry>
+            <listEntry value="90">@Strings.Goal2500m</listEntry>
+            <listEntry value="91">@Strings.Goal3000m</listEntry>
+
+            <!-- Respiration goals -->
+            <listEntry value="92">@Strings.Goal10</listEntry>
+            <listEntry value="93">@Strings.Goal12</listEntry>
+            <listEntry value="94">@Strings.Goal14</listEntry>
+            <listEntry value="95">@Strings.Goal16</listEntry>
+            <listEntry value="96">@Strings.Goal18</listEntry>
+            <listEntry value="97">@Strings.Goal20</listEntry>
+            <listEntry value="98">@Strings.Goal22</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc2DataType" title="@Strings.Arc2DataTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.None</listEntry>
+            <listEntry value="1">@Strings.BodyBattery</listEntry>
+            <listEntry value="2">@Strings.Stress</listEntry>
+            <listEntry value="3">@Strings.Steps</listEntry>
+            <listEntry value="4">@Strings.Calories</listEntry>
+            <listEntry value="5">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="6">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="7">@Strings.Distance</listEntry>
+            <listEntry value="8">@Strings.ElevationGain</listEntry>
+            <listEntry value="9">@Strings.RespirationRate</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc2Color" title="@Strings.Arc2ColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Coral</listEntry>
+            <listEntry value="1">@Strings.MintGreen</listEntry>
+            <listEntry value="2">@Strings.SkyBlue</listEntry>
+            <listEntry value="3">@Strings.GoldenYellow</listEntry>
+            <listEntry value="4">@Strings.RosePink</listEntry>
+            <listEntry value="5">@Strings.Aqua</listEntry>
+            <listEntry value="6">@Strings.White</listEntry>
+            <listEntry value="7">@Strings.Gray</listEntry>
+            <listEntry value="8">@Strings.Amber</listEntry>
+            <listEntry value="9">@Strings.Magenta</listEntry>
+            <listEntry value="10">@Strings.BrightBlue</listEntry>
+            <listEntry value="11">@Strings.ForestGreen</listEntry>
+            <listEntry value="12">@Strings.Terracotta</listEntry>
+            <listEntry value="13">@Strings.HotPink</listEntry>
+            <listEntry value="14">@Strings.LightGray</listEntry>
+            <listEntry value="15">@Strings.OceanBlue</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc2Goal" title="@Strings.Arc2GoalTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Auto</listEntry>
+
+            <!-- Steps goals -->
+            <listEntry value="1">@Strings.Goal500</listEntry>
+            <listEntry value="2">@Strings.Goal1000</listEntry>
+            <listEntry value="3">@Strings.Goal2000</listEntry>
+            <listEntry value="4">@Strings.Goal3000</listEntry>
+            <listEntry value="5">@Strings.Goal4000</listEntry>
+            <listEntry value="6">@Strings.Goal5000</listEntry>
+            <listEntry value="7">@Strings.Goal7500</listEntry>
+            <listEntry value="8">@Strings.Goal10000</listEntry>
+            <listEntry value="9">@Strings.Goal12500</listEntry>
+            <listEntry value="10">@Strings.Goal15000</listEntry>
+            <listEntry value="11">@Strings.Goal20000</listEntry>
+            <listEntry value="12">@Strings.Goal25000</listEntry>
+            <listEntry value="13">@Strings.Goal30000</listEntry>
+            <listEntry value="14">@Strings.Goal35000</listEntry>
+            <listEntry value="15">@Strings.Goal40000</listEntry>
+            <listEntry value="16">@Strings.Goal50000</listEntry>
+            <listEntry value="17">@Strings.Goal60000</listEntry>
+
+            <!-- Active Minutes goals -->
+            <listEntry value="18">@Strings.Goal1</listEntry>
+            <listEntry value="19">@Strings.Goal3</listEntry>
+            <listEntry value="20">@Strings.Goal5</listEntry>
+            <listEntry value="21">@Strings.Goal10</listEntry>
+            <listEntry value="22">@Strings.Goal15</listEntry>
+            <listEntry value="23">@Strings.Goal20</listEntry>
+            <listEntry value="24">@Strings.Goal30</listEntry>
+            <listEntry value="25">@Strings.Goal45</listEntry>
+            <listEntry value="26">@Strings.Goal60</listEntry>
+            <listEntry value="27">@Strings.Goal90</listEntry>
+            <listEntry value="28">@Strings.Goal120</listEntry>
+            <listEntry value="29">@Strings.Goal150</listEntry>
+            <listEntry value="30">@Strings.Goal180</listEntry>
+            <listEntry value="31">@Strings.Goal240</listEntry>
+            <listEntry value="32">@Strings.Goal300</listEntry>
+
+            <!-- Calories goals -->
+            <listEntry value="33">@Strings.Goal50</listEntry>
+            <listEntry value="34">@Strings.Goal100</listEntry>
+            <listEntry value="35">@Strings.Goal150</listEntry>
+            <listEntry value="36">@Strings.Goal200</listEntry>
+            <listEntry value="37">@Strings.Goal300</listEntry>
+            <listEntry value="38">@Strings.Goal600</listEntry>
+            <listEntry value="39">@Strings.Goal800</listEntry>
+            <listEntry value="40">@Strings.Goal1000</listEntry>
+            <listEntry value="41">@Strings.Goal1200</listEntry>
+            <listEntry value="42">@Strings.Goal1500</listEntry>
+            <listEntry value="43">@Strings.Goal1800</listEntry>
+            <listEntry value="44">@Strings.Goal2000</listEntry>
+            <listEntry value="45">@Strings.Goal2200</listEntry>
+            <listEntry value="46">@Strings.Goal2500</listEntry>
+            <listEntry value="47">@Strings.Goal3000</listEntry>
+            <listEntry value="48">@Strings.Goal3500</listEntry>
+            <listEntry value="49">@Strings.Goal4000</listEntry>
+
+            <!-- Floors goals -->
+            <listEntry value="50">@Strings.Goal0</listEntry>
+            <listEntry value="51">@Strings.Goal1</listEntry>
+            <listEntry value="52">@Strings.Goal2</listEntry>
+            <listEntry value="53">@Strings.Goal3</listEntry>
+            <listEntry value="54">@Strings.Goal5</listEntry>
+            <listEntry value="55">@Strings.Goal10</listEntry>
+            <listEntry value="56">@Strings.Goal15</listEntry>
+            <listEntry value="57">@Strings.Goal20</listEntry>
+            <listEntry value="58">@Strings.Goal25</listEntry>
+            <listEntry value="59">@Strings.Goal30</listEntry>
+            <listEntry value="60">@Strings.Goal40</listEntry>
+            <listEntry value="61">@Strings.Goal50</listEntry>
+            <listEntry value="62">@Strings.Goal75</listEntry>
+            <listEntry value="63">@Strings.Goal100</listEntry>
+
+            <!-- Distance goals -->
+            <listEntry value="64">@Strings.Goal0_2km</listEntry>
+            <listEntry value="65">@Strings.Goal0_5km</listEntry>
+            <listEntry value="66">@Strings.Goal1km</listEntry>
+            <listEntry value="67">@Strings.Goal1_5km</listEntry>
+            <listEntry value="68">@Strings.Goal2km</listEntry>
+            <listEntry value="69">@Strings.Goal2_5km</listEntry>
+            <listEntry value="70">@Strings.Goal5km</listEntry>
+            <listEntry value="71">@Strings.Goal7_5km</listEntry>
+            <listEntry value="72">@Strings.Goal10km</listEntry>
+            <listEntry value="73">@Strings.Goal15km</listEntry>
+            <listEntry value="74">@Strings.Goal20km</listEntry>
+            <listEntry value="75">@Strings.Goal25km</listEntry>
+            <listEntry value="76">@Strings.Goal30km</listEntry>
+            <listEntry value="77">@Strings.Goal40km</listEntry>
+            <listEntry value="78">@Strings.Goal42km</listEntry>
+
+            <!-- Elevation goals -->
+            <listEntry value="79">@Strings.Goal5m</listEntry>
+            <listEntry value="80">@Strings.Goal10m</listEntry>
+            <listEntry value="81">@Strings.Goal20m</listEntry>
+            <listEntry value="82">@Strings.Goal30m</listEntry>
+            <listEntry value="83">@Strings.Goal50m</listEntry>
+            <listEntry value="84">@Strings.Goal100m</listEntry>
+            <listEntry value="85">@Strings.Goal200m</listEntry>
+            <listEntry value="86">@Strings.Goal500m</listEntry>
+            <listEntry value="87">@Strings.Goal1000m</listEntry>
+            <listEntry value="88">@Strings.Goal1500m</listEntry>
+            <listEntry value="89">@Strings.Goal2000m</listEntry>
+            <listEntry value="90">@Strings.Goal2500m</listEntry>
+            <listEntry value="91">@Strings.Goal3000m</listEntry>
+
+            <!-- Respiration goals -->
+            <listEntry value="92">@Strings.Goal10</listEntry>
+            <listEntry value="93">@Strings.Goal12</listEntry>
+            <listEntry value="94">@Strings.Goal14</listEntry>
+            <listEntry value="95">@Strings.Goal16</listEntry>
+            <listEntry value="96">@Strings.Goal18</listEntry>
+            <listEntry value="97">@Strings.Goal20</listEntry>
+            <listEntry value="98">@Strings.Goal22</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc3DataType" title="@Strings.Arc3DataTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.None</listEntry>
+            <listEntry value="1">@Strings.BodyBattery</listEntry>
+            <listEntry value="2">@Strings.Stress</listEntry>
+            <listEntry value="3">@Strings.Steps</listEntry>
+            <listEntry value="4">@Strings.Calories</listEntry>
+            <listEntry value="5">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="6">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="7">@Strings.Distance</listEntry>
+            <listEntry value="8">@Strings.ElevationGain</listEntry>
+            <listEntry value="9">@Strings.RespirationRate</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc3Color" title="@Strings.Arc3ColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Coral</listEntry>
+            <listEntry value="1">@Strings.MintGreen</listEntry>
+            <listEntry value="2">@Strings.SkyBlue</listEntry>
+            <listEntry value="3">@Strings.GoldenYellow</listEntry>
+            <listEntry value="4">@Strings.RosePink</listEntry>
+            <listEntry value="5">@Strings.Aqua</listEntry>
+            <listEntry value="6">@Strings.White</listEntry>
+            <listEntry value="7">@Strings.Gray</listEntry>
+            <listEntry value="8">@Strings.Amber</listEntry>
+            <listEntry value="9">@Strings.Magenta</listEntry>
+            <listEntry value="10">@Strings.BrightBlue</listEntry>
+            <listEntry value="11">@Strings.ForestGreen</listEntry>
+            <listEntry value="12">@Strings.Terracotta</listEntry>
+            <listEntry value="13">@Strings.HotPink</listEntry>
+            <listEntry value="14">@Strings.LightGray</listEntry>
+            <listEntry value="15">@Strings.OceanBlue</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc3Goal" title="@Strings.Arc3GoalTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Auto</listEntry>
+
+            <!-- Steps goals -->
+            <listEntry value="1">@Strings.Goal500</listEntry>
+            <listEntry value="2">@Strings.Goal1000</listEntry>
+            <listEntry value="3">@Strings.Goal2000</listEntry>
+            <listEntry value="4">@Strings.Goal3000</listEntry>
+            <listEntry value="5">@Strings.Goal4000</listEntry>
+            <listEntry value="6">@Strings.Goal5000</listEntry>
+            <listEntry value="7">@Strings.Goal7500</listEntry>
+            <listEntry value="8">@Strings.Goal10000</listEntry>
+            <listEntry value="9">@Strings.Goal12500</listEntry>
+            <listEntry value="10">@Strings.Goal15000</listEntry>
+            <listEntry value="11">@Strings.Goal20000</listEntry>
+            <listEntry value="12">@Strings.Goal25000</listEntry>
+            <listEntry value="13">@Strings.Goal30000</listEntry>
+            <listEntry value="14">@Strings.Goal35000</listEntry>
+            <listEntry value="15">@Strings.Goal40000</listEntry>
+            <listEntry value="16">@Strings.Goal50000</listEntry>
+            <listEntry value="17">@Strings.Goal60000</listEntry>
+
+            <!-- Active Minutes goals -->
+            <listEntry value="18">@Strings.Goal1</listEntry>
+            <listEntry value="19">@Strings.Goal3</listEntry>
+            <listEntry value="20">@Strings.Goal5</listEntry>
+            <listEntry value="21">@Strings.Goal10</listEntry>
+            <listEntry value="22">@Strings.Goal15</listEntry>
+            <listEntry value="23">@Strings.Goal20</listEntry>
+            <listEntry value="24">@Strings.Goal30</listEntry>
+            <listEntry value="25">@Strings.Goal45</listEntry>
+            <listEntry value="26">@Strings.Goal60</listEntry>
+            <listEntry value="27">@Strings.Goal90</listEntry>
+            <listEntry value="28">@Strings.Goal120</listEntry>
+            <listEntry value="29">@Strings.Goal150</listEntry>
+            <listEntry value="30">@Strings.Goal180</listEntry>
+            <listEntry value="31">@Strings.Goal240</listEntry>
+            <listEntry value="32">@Strings.Goal300</listEntry>
+
+            <!-- Calories goals -->
+            <listEntry value="33">@Strings.Goal50</listEntry>
+            <listEntry value="34">@Strings.Goal100</listEntry>
+            <listEntry value="35">@Strings.Goal150</listEntry>
+            <listEntry value="36">@Strings.Goal200</listEntry>
+            <listEntry value="37">@Strings.Goal300</listEntry>
+            <listEntry value="38">@Strings.Goal600</listEntry>
+            <listEntry value="39">@Strings.Goal800</listEntry>
+            <listEntry value="40">@Strings.Goal1000</listEntry>
+            <listEntry value="41">@Strings.Goal1200</listEntry>
+            <listEntry value="42">@Strings.Goal1500</listEntry>
+            <listEntry value="43">@Strings.Goal1800</listEntry>
+            <listEntry value="44">@Strings.Goal2000</listEntry>
+            <listEntry value="45">@Strings.Goal2200</listEntry>
+            <listEntry value="46">@Strings.Goal2500</listEntry>
+            <listEntry value="47">@Strings.Goal3000</listEntry>
+            <listEntry value="48">@Strings.Goal3500</listEntry>
+            <listEntry value="49">@Strings.Goal4000</listEntry>
+
+            <!-- Floors goals -->
+            <listEntry value="50">@Strings.Goal0</listEntry>
+            <listEntry value="51">@Strings.Goal1</listEntry>
+            <listEntry value="52">@Strings.Goal2</listEntry>
+            <listEntry value="53">@Strings.Goal3</listEntry>
+            <listEntry value="54">@Strings.Goal5</listEntry>
+            <listEntry value="55">@Strings.Goal10</listEntry>
+            <listEntry value="56">@Strings.Goal15</listEntry>
+            <listEntry value="57">@Strings.Goal20</listEntry>
+            <listEntry value="58">@Strings.Goal25</listEntry>
+            <listEntry value="59">@Strings.Goal30</listEntry>
+            <listEntry value="60">@Strings.Goal40</listEntry>
+            <listEntry value="61">@Strings.Goal50</listEntry>
+            <listEntry value="62">@Strings.Goal75</listEntry>
+            <listEntry value="63">@Strings.Goal100</listEntry>
+
+            <!-- Distance goals -->
+            <listEntry value="64">@Strings.Goal0_2km</listEntry>
+            <listEntry value="65">@Strings.Goal0_5km</listEntry>
+            <listEntry value="66">@Strings.Goal1km</listEntry>
+            <listEntry value="67">@Strings.Goal1_5km</listEntry>
+            <listEntry value="68">@Strings.Goal2km</listEntry>
+            <listEntry value="69">@Strings.Goal2_5km</listEntry>
+            <listEntry value="70">@Strings.Goal5km</listEntry>
+            <listEntry value="71">@Strings.Goal7_5km</listEntry>
+            <listEntry value="72">@Strings.Goal10km</listEntry>
+            <listEntry value="73">@Strings.Goal15km</listEntry>
+            <listEntry value="74">@Strings.Goal20km</listEntry>
+            <listEntry value="75">@Strings.Goal25km</listEntry>
+            <listEntry value="76">@Strings.Goal30km</listEntry>
+            <listEntry value="77">@Strings.Goal40km</listEntry>
+            <listEntry value="78">@Strings.Goal42km</listEntry>
+
+            <!-- Elevation goals -->
+            <listEntry value="79">@Strings.Goal5m</listEntry>
+            <listEntry value="80">@Strings.Goal10m</listEntry>
+            <listEntry value="81">@Strings.Goal20m</listEntry>
+            <listEntry value="82">@Strings.Goal30m</listEntry>
+            <listEntry value="83">@Strings.Goal50m</listEntry>
+            <listEntry value="84">@Strings.Goal100m</listEntry>
+            <listEntry value="85">@Strings.Goal200m</listEntry>
+            <listEntry value="86">@Strings.Goal500m</listEntry>
+            <listEntry value="87">@Strings.Goal1000m</listEntry>
+            <listEntry value="88">@Strings.Goal1500m</listEntry>
+            <listEntry value="89">@Strings.Goal2000m</listEntry>
+            <listEntry value="90">@Strings.Goal2500m</listEntry>
+            <listEntry value="91">@Strings.Goal3000m</listEntry>
+
+            <!-- Respiration goals -->
+            <listEntry value="92">@Strings.Goal10</listEntry>
+            <listEntry value="93">@Strings.Goal12</listEntry>
+            <listEntry value="94">@Strings.Goal14</listEntry>
+            <listEntry value="95">@Strings.Goal16</listEntry>
+            <listEntry value="96">@Strings.Goal18</listEntry>
+            <listEntry value="97">@Strings.Goal20</listEntry>
+            <listEntry value="98">@Strings.Goal22</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc4DataType" title="@Strings.Arc4DataTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.None</listEntry>
+            <listEntry value="1">@Strings.BodyBattery</listEntry>
+            <listEntry value="2">@Strings.Stress</listEntry>
+            <listEntry value="3">@Strings.Steps</listEntry>
+            <listEntry value="4">@Strings.Calories</listEntry>
+            <listEntry value="5">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="6">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="7">@Strings.Distance</listEntry>
+            <listEntry value="8">@Strings.ElevationGain</listEntry>
+            <listEntry value="9">@Strings.RespirationRate</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc4Color" title="@Strings.Arc4ColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Coral</listEntry>
+            <listEntry value="1">@Strings.MintGreen</listEntry>
+            <listEntry value="2">@Strings.SkyBlue</listEntry>
+            <listEntry value="3">@Strings.GoldenYellow</listEntry>
+            <listEntry value="4">@Strings.RosePink</listEntry>
+            <listEntry value="5">@Strings.Aqua</listEntry>
+            <listEntry value="6">@Strings.White</listEntry>
+            <listEntry value="7">@Strings.Gray</listEntry>
+            <listEntry value="8">@Strings.Amber</listEntry>
+            <listEntry value="9">@Strings.Magenta</listEntry>
+            <listEntry value="10">@Strings.BrightBlue</listEntry>
+            <listEntry value="11">@Strings.ForestGreen</listEntry>
+            <listEntry value="12">@Strings.Terracotta</listEntry>
+            <listEntry value="13">@Strings.HotPink</listEntry>
+            <listEntry value="14">@Strings.LightGray</listEntry>
+            <listEntry value="15">@Strings.OceanBlue</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc4Goal" title="@Strings.Arc4GoalTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Auto</listEntry>
+
+            <!-- Steps goals -->
+            <listEntry value="1">@Strings.Goal500</listEntry>
+            <listEntry value="2">@Strings.Goal1000</listEntry>
+            <listEntry value="3">@Strings.Goal2000</listEntry>
+            <listEntry value="4">@Strings.Goal3000</listEntry>
+            <listEntry value="5">@Strings.Goal4000</listEntry>
+            <listEntry value="6">@Strings.Goal5000</listEntry>
+            <listEntry value="7">@Strings.Goal7500</listEntry>
+            <listEntry value="8">@Strings.Goal10000</listEntry>
+            <listEntry value="9">@Strings.Goal12500</listEntry>
+            <listEntry value="10">@Strings.Goal15000</listEntry>
+            <listEntry value="11">@Strings.Goal20000</listEntry>
+            <listEntry value="12">@Strings.Goal25000</listEntry>
+            <listEntry value="13">@Strings.Goal30000</listEntry>
+            <listEntry value="14">@Strings.Goal35000</listEntry>
+            <listEntry value="15">@Strings.Goal40000</listEntry>
+            <listEntry value="16">@Strings.Goal50000</listEntry>
+            <listEntry value="17">@Strings.Goal60000</listEntry>
+
+            <!-- Active Minutes goals -->
+            <listEntry value="18">@Strings.Goal1</listEntry>
+            <listEntry value="19">@Strings.Goal3</listEntry>
+            <listEntry value="20">@Strings.Goal5</listEntry>
+            <listEntry value="21">@Strings.Goal10</listEntry>
+            <listEntry value="22">@Strings.Goal15</listEntry>
+            <listEntry value="23">@Strings.Goal20</listEntry>
+            <listEntry value="24">@Strings.Goal30</listEntry>
+            <listEntry value="25">@Strings.Goal45</listEntry>
+            <listEntry value="26">@Strings.Goal60</listEntry>
+            <listEntry value="27">@Strings.Goal90</listEntry>
+            <listEntry value="28">@Strings.Goal120</listEntry>
+            <listEntry value="29">@Strings.Goal150</listEntry>
+            <listEntry value="30">@Strings.Goal180</listEntry>
+            <listEntry value="31">@Strings.Goal240</listEntry>
+            <listEntry value="32">@Strings.Goal300</listEntry>
+
+            <!-- Calories goals -->
+            <listEntry value="33">@Strings.Goal50</listEntry>
+            <listEntry value="34">@Strings.Goal100</listEntry>
+            <listEntry value="35">@Strings.Goal150</listEntry>
+            <listEntry value="36">@Strings.Goal200</listEntry>
+            <listEntry value="37">@Strings.Goal300</listEntry>
+            <listEntry value="38">@Strings.Goal600</listEntry>
+            <listEntry value="39">@Strings.Goal800</listEntry>
+            <listEntry value="40">@Strings.Goal1000</listEntry>
+            <listEntry value="41">@Strings.Goal1200</listEntry>
+            <listEntry value="42">@Strings.Goal1500</listEntry>
+            <listEntry value="43">@Strings.Goal1800</listEntry>
+            <listEntry value="44">@Strings.Goal2000</listEntry>
+            <listEntry value="45">@Strings.Goal2200</listEntry>
+            <listEntry value="46">@Strings.Goal2500</listEntry>
+            <listEntry value="47">@Strings.Goal3000</listEntry>
+            <listEntry value="48">@Strings.Goal3500</listEntry>
+            <listEntry value="49">@Strings.Goal4000</listEntry>
+
+            <!-- Floors goals -->
+            <listEntry value="50">@Strings.Goal0</listEntry>
+            <listEntry value="51">@Strings.Goal1</listEntry>
+            <listEntry value="52">@Strings.Goal2</listEntry>
+            <listEntry value="53">@Strings.Goal3</listEntry>
+            <listEntry value="54">@Strings.Goal5</listEntry>
+            <listEntry value="55">@Strings.Goal10</listEntry>
+            <listEntry value="56">@Strings.Goal15</listEntry>
+            <listEntry value="57">@Strings.Goal20</listEntry>
+            <listEntry value="58">@Strings.Goal25</listEntry>
+            <listEntry value="59">@Strings.Goal30</listEntry>
+            <listEntry value="60">@Strings.Goal40</listEntry>
+            <listEntry value="61">@Strings.Goal50</listEntry>
+            <listEntry value="62">@Strings.Goal75</listEntry>
+            <listEntry value="63">@Strings.Goal100</listEntry>
+
+            <!-- Distance goals -->
+            <listEntry value="64">@Strings.Goal0_2km</listEntry>
+            <listEntry value="65">@Strings.Goal0_5km</listEntry>
+            <listEntry value="66">@Strings.Goal1km</listEntry>
+            <listEntry value="67">@Strings.Goal1_5km</listEntry>
+            <listEntry value="68">@Strings.Goal2km</listEntry>
+            <listEntry value="69">@Strings.Goal2_5km</listEntry>
+            <listEntry value="70">@Strings.Goal5km</listEntry>
+            <listEntry value="71">@Strings.Goal7_5km</listEntry>
+            <listEntry value="72">@Strings.Goal10km</listEntry>
+            <listEntry value="73">@Strings.Goal15km</listEntry>
+            <listEntry value="74">@Strings.Goal20km</listEntry>
+            <listEntry value="75">@Strings.Goal25km</listEntry>
+            <listEntry value="76">@Strings.Goal30km</listEntry>
+            <listEntry value="77">@Strings.Goal40km</listEntry>
+            <listEntry value="78">@Strings.Goal42km</listEntry>
+
+            <!-- Elevation goals -->
+            <listEntry value="79">@Strings.Goal5m</listEntry>
+            <listEntry value="80">@Strings.Goal10m</listEntry>
+            <listEntry value="81">@Strings.Goal20m</listEntry>
+            <listEntry value="82">@Strings.Goal30m</listEntry>
+            <listEntry value="83">@Strings.Goal50m</listEntry>
+            <listEntry value="84">@Strings.Goal100m</listEntry>
+            <listEntry value="85">@Strings.Goal200m</listEntry>
+            <listEntry value="86">@Strings.Goal500m</listEntry>
+            <listEntry value="87">@Strings.Goal1000m</listEntry>
+            <listEntry value="88">@Strings.Goal1500m</listEntry>
+            <listEntry value="89">@Strings.Goal2000m</listEntry>
+            <listEntry value="90">@Strings.Goal2500m</listEntry>
+            <listEntry value="91">@Strings.Goal3000m</listEntry>
+
+            <!-- Respiration goals -->
+            <listEntry value="92">@Strings.Goal10</listEntry>
+            <listEntry value="93">@Strings.Goal12</listEntry>
+            <listEntry value="94">@Strings.Goal14</listEntry>
+            <listEntry value="95">@Strings.Goal16</listEntry>
+            <listEntry value="96">@Strings.Goal18</listEntry>
+            <listEntry value="97">@Strings.Goal20</listEntry>
+            <listEntry value="98">@Strings.Goal22</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc5DataType" title="@Strings.Arc5DataTypeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.None</listEntry>
+            <listEntry value="1">@Strings.BodyBattery</listEntry>
+            <listEntry value="2">@Strings.Stress</listEntry>
+            <listEntry value="3">@Strings.Steps</listEntry>
+            <listEntry value="4">@Strings.Calories</listEntry>
+            <listEntry value="5">@Strings.ActiveMinutes</listEntry>
+            <listEntry value="6">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="7">@Strings.Distance</listEntry>
+            <listEntry value="8">@Strings.ElevationGain</listEntry>
+            <listEntry value="9">@Strings.RespirationRate</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc5Color" title="@Strings.Arc5ColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Coral</listEntry>
+            <listEntry value="1">@Strings.MintGreen</listEntry>
+            <listEntry value="2">@Strings.SkyBlue</listEntry>
+            <listEntry value="3">@Strings.GoldenYellow</listEntry>
+            <listEntry value="4">@Strings.RosePink</listEntry>
+            <listEntry value="5">@Strings.Aqua</listEntry>
+            <listEntry value="6">@Strings.White</listEntry>
+            <listEntry value="7">@Strings.Gray</listEntry>
+            <listEntry value="8">@Strings.Amber</listEntry>
+            <listEntry value="9">@Strings.Magenta</listEntry>
+            <listEntry value="10">@Strings.BrightBlue</listEntry>
+            <listEntry value="11">@Strings.ForestGreen</listEntry>
+            <listEntry value="12">@Strings.Terracotta</listEntry>
+            <listEntry value="13">@Strings.HotPink</listEntry>
+            <listEntry value="14">@Strings.LightGray</listEntry>
+            <listEntry value="15">@Strings.OceanBlue</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Arc5Goal" title="@Strings.Arc5GoalTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Auto</listEntry>
+
+            <!-- Steps goals -->
+            <listEntry value="1">@Strings.Goal500</listEntry>
+            <listEntry value="2">@Strings.Goal1000</listEntry>
+            <listEntry value="3">@Strings.Goal2000</listEntry>
+            <listEntry value="4">@Strings.Goal3000</listEntry>
+            <listEntry value="5">@Strings.Goal4000</listEntry>
+            <listEntry value="6">@Strings.Goal5000</listEntry>
+            <listEntry value="7">@Strings.Goal7500</listEntry>
+            <listEntry value="8">@Strings.Goal10000</listEntry>
+            <listEntry value="9">@Strings.Goal12500</listEntry>
+            <listEntry value="10">@Strings.Goal15000</listEntry>
+            <listEntry value="11">@Strings.Goal20000</listEntry>
+            <listEntry value="12">@Strings.Goal25000</listEntry>
+            <listEntry value="13">@Strings.Goal30000</listEntry>
+            <listEntry value="14">@Strings.Goal35000</listEntry>
+            <listEntry value="15">@Strings.Goal40000</listEntry>
+            <listEntry value="16">@Strings.Goal50000</listEntry>
+            <listEntry value="17">@Strings.Goal60000</listEntry>
+
+            <!-- Active Minutes goals -->
+            <listEntry value="18">@Strings.Goal1</listEntry>
+            <listEntry value="19">@Strings.Goal3</listEntry>
+            <listEntry value="20">@Strings.Goal5</listEntry>
+            <listEntry value="21">@Strings.Goal10</listEntry>
+            <listEntry value="22">@Strings.Goal15</listEntry>
+            <listEntry value="23">@Strings.Goal20</listEntry>
+            <listEntry value="24">@Strings.Goal30</listEntry>
+            <listEntry value="25">@Strings.Goal45</listEntry>
+            <listEntry value="26">@Strings.Goal60</listEntry>
+            <listEntry value="27">@Strings.Goal90</listEntry>
+            <listEntry value="28">@Strings.Goal120</listEntry>
+            <listEntry value="29">@Strings.Goal150</listEntry>
+            <listEntry value="30">@Strings.Goal180</listEntry>
+            <listEntry value="31">@Strings.Goal240</listEntry>
+            <listEntry value="32">@Strings.Goal300</listEntry>
+
+            <!-- Calories goals -->
+            <listEntry value="33">@Strings.Goal50</listEntry>
+            <listEntry value="34">@Strings.Goal100</listEntry>
+            <listEntry value="35">@Strings.Goal150</listEntry>
+            <listEntry value="36">@Strings.Goal200</listEntry>
+            <listEntry value="37">@Strings.Goal300</listEntry>
+            <listEntry value="38">@Strings.Goal600</listEntry>
+            <listEntry value="39">@Strings.Goal800</listEntry>
+            <listEntry value="40">@Strings.Goal1000</listEntry>
+            <listEntry value="41">@Strings.Goal1200</listEntry>
+            <listEntry value="42">@Strings.Goal1500</listEntry>
+            <listEntry value="43">@Strings.Goal1800</listEntry>
+            <listEntry value="44">@Strings.Goal2000</listEntry>
+            <listEntry value="45">@Strings.Goal2200</listEntry>
+            <listEntry value="46">@Strings.Goal2500</listEntry>
+            <listEntry value="47">@Strings.Goal3000</listEntry>
+            <listEntry value="48">@Strings.Goal3500</listEntry>
+            <listEntry value="49">@Strings.Goal4000</listEntry>
+
+            <!-- Floors goals -->
+            <listEntry value="50">@Strings.Goal0</listEntry>
+            <listEntry value="51">@Strings.Goal1</listEntry>
+            <listEntry value="52">@Strings.Goal2</listEntry>
+            <listEntry value="53">@Strings.Goal3</listEntry>
+            <listEntry value="54">@Strings.Goal5</listEntry>
+            <listEntry value="55">@Strings.Goal10</listEntry>
+            <listEntry value="56">@Strings.Goal15</listEntry>
+            <listEntry value="57">@Strings.Goal20</listEntry>
+            <listEntry value="58">@Strings.Goal25</listEntry>
+            <listEntry value="59">@Strings.Goal30</listEntry>
+            <listEntry value="60">@Strings.Goal40</listEntry>
+            <listEntry value="61">@Strings.Goal50</listEntry>
+            <listEntry value="62">@Strings.Goal75</listEntry>
+            <listEntry value="63">@Strings.Goal100</listEntry>
+
+            <!-- Distance goals -->
+            <listEntry value="64">@Strings.Goal0_2km</listEntry>
+            <listEntry value="65">@Strings.Goal0_5km</listEntry>
+            <listEntry value="66">@Strings.Goal1km</listEntry>
+            <listEntry value="67">@Strings.Goal1_5km</listEntry>
+            <listEntry value="68">@Strings.Goal2km</listEntry>
+            <listEntry value="69">@Strings.Goal2_5km</listEntry>
+            <listEntry value="70">@Strings.Goal5km</listEntry>
+            <listEntry value="71">@Strings.Goal7_5km</listEntry>
+            <listEntry value="72">@Strings.Goal10km</listEntry>
+            <listEntry value="73">@Strings.Goal15km</listEntry>
+            <listEntry value="74">@Strings.Goal20km</listEntry>
+            <listEntry value="75">@Strings.Goal25km</listEntry>
+            <listEntry value="76">@Strings.Goal30km</listEntry>
+            <listEntry value="77">@Strings.Goal40km</listEntry>
+            <listEntry value="78">@Strings.Goal42km</listEntry>
+
+            <!-- Elevation goals -->
+            <listEntry value="79">@Strings.Goal5m</listEntry>
+            <listEntry value="80">@Strings.Goal10m</listEntry>
+            <listEntry value="81">@Strings.Goal20m</listEntry>
+            <listEntry value="82">@Strings.Goal30m</listEntry>
+            <listEntry value="83">@Strings.Goal50m</listEntry>
+            <listEntry value="84">@Strings.Goal100m</listEntry>
+            <listEntry value="85">@Strings.Goal200m</listEntry>
+            <listEntry value="86">@Strings.Goal500m</listEntry>
+            <listEntry value="87">@Strings.Goal1000m</listEntry>
+            <listEntry value="88">@Strings.Goal1500m</listEntry>
+            <listEntry value="89">@Strings.Goal2000m</listEntry>
+            <listEntry value="90">@Strings.Goal2500m</listEntry>
+            <listEntry value="91">@Strings.Goal3000m</listEntry>
+
+            <!-- Respiration goals -->
+            <listEntry value="92">@Strings.Goal10</listEntry>
+            <listEntry value="93">@Strings.Goal12</listEntry>
+            <listEntry value="94">@Strings.Goal14</listEntry>
+            <listEntry value="95">@Strings.Goal16</listEntry>
+            <listEntry value="96">@Strings.Goal18</listEntry>
+            <listEntry value="97">@Strings.Goal20</listEntry>
+            <listEntry value="98">@Strings.Goal22</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>

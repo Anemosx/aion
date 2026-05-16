@@ -8,6 +8,168 @@
 	<string id="Wed">Wed</string>
 	<string id="Thu">Thu</string>
 	<string id="Fri">Fri</string>
-	<string id="Sat">Sat</string>
+    <string id="Sat">Sat</string>
+
+    <!-- Polar Arc Configuration -->
+    <string id="Arc1DataTypeTitle">Arc 1 Data</string>
+    <string id="Arc1ColorTitle">Arc 1 Color</string>
+    <string id="Arc1GoalTitle">Arc 1 Goal</string>
+    <string id="Arc2DataTypeTitle">Arc 2 Data</string>
+    <string id="Arc2ColorTitle">Arc 2 Color</string>
+    <string id="Arc2GoalTitle">Arc 2 Goal</string>
+    <string id="Arc3DataTypeTitle">Arc 3 Data</string>
+    <string id="Arc3ColorTitle">Arc 3 Color</string>
+    <string id="Arc3GoalTitle">Arc 3 Goal</string>
+    <string id="Arc4DataTypeTitle">Arc 4 Data</string>
+    <string id="Arc4ColorTitle">Arc 4 Color</string>
+    <string id="Arc4GoalTitle">Arc 4 Goal</string>
+    <string id="Arc5DataTypeTitle">Arc 5 Data</string>
+    <string id="Arc5ColorTitle">Arc 5 Color</string>
+    <string id="Arc5GoalTitle">Arc 5 Goal</string>
+
+    <!-- Data Types -->
+    <string id="None">None</string>
+    <string id="BodyBattery">Body Battery</string>
+    <string id="Stress">Stress</string>
+    <string id="Steps">Steps</string>
+    <string id="Calories">Calories</string>
+    <string id="ActiveMinutes">Active Minutes</string>
+    <string id="FloorsClimbed">Floors Climbed</string>
+    <string id="Distance">Distance</string>
+    <string id="ElevationGain">Elevation Gain</string>
+    <string id="RespirationRate">Respiration Rate</string>
+
+    <!-- Colors -->
+    <string id="Coral">Orange-Red</string>
+    <string id="MintGreen">Light Green</string>
+    <string id="SkyBlue">Light Blue</string>
+    <string id="GoldenYellow">Yellow</string>
+    <string id="RosePink">Pink</string>
+    <string id="Aqua">Cyan</string>
+    <string id="White">White</string>
+    <string id="Gray">Gray</string>
+    <string id="Amber">Orange</string>
+    <string id="Magenta">Purple</string>
+    <string id="BrightBlue">Blue</string>
+    <string id="ForestGreen">Dark Green</string>
+    <string id="Terracotta">Brown</string>
+    <string id="HotPink">Magenta</string>
+    <string id="LightGray">Light Gray</string>
+    <string id="OceanBlue">Navy Blue</string>
+
+    <!-- Goal Values -->
+    <string id="Auto">Auto</string>
+
+    <!-- Steps goals -->
+    <string id="Goal500">500</string>
+    <string id="Goal1000">1,000</string>
+    <string id="Goal2000">2,000</string>
+    <string id="Goal3000">3,000</string>
+    <string id="Goal4000">4,000</string>
+    <string id="Goal5000">5,000</string>
+    <string id="Goal7500">7,500</string>
+    <string id="Goal10000">10,000</string>
+    <string id="Goal12500">12,500</string>
+    <string id="Goal15000">15,000</string>
+    <string id="Goal20000">20,000</string>
+    <string id="Goal25000">25,000</string>
+    <string id="Goal30000">30,000</string>
+    <string id="Goal35000">35,000</string>
+    <string id="Goal40000">40,000</string>
+    <string id="Goal50000">50,000</string>
+    <string id="Goal60000">60,000</string>
+
+    <!-- Active Minutes goals -->
+    <string id="Goal1">1</string>
+    <string id="Goal3">3</string>
+    <string id="Goal5">5</string>
+    <string id="Goal10">10</string>
+    <string id="Goal15">15</string>
+    <string id="Goal20">20</string>
+    <string id="Goal30">30</string>
+    <string id="Goal45">45</string>
+    <string id="Goal60">60</string>
+    <string id="Goal90">90</string>
+    <string id="Goal120">120</string>
+    <string id="Goal150">150</string>
+    <string id="Goal180">180</string>
+    <string id="Goal240">240</string>
+    <string id="Goal300">300</string>
+
+    <!-- Calories goals -->
+    <string id="Goal50">50</string>
+    <string id="Goal100">100</string>
+    <string id="Goal150">150</string>
+    <string id="Goal200">200</string>
+    <string id="Goal300">300</string>
+    <string id="Goal600">600</string>
+    <string id="Goal800">800</string>
+    <string id="Goal1000">1,000</string>
+    <string id="Goal1200">1,200</string>
+    <string id="Goal1500">1,500</string>
+    <string id="Goal1800">1,800</string>
+    <string id="Goal2000">2,000</string>
+    <string id="Goal2200">2,200</string>
+    <string id="Goal2500">2,500</string>
+    <string id="Goal3000">3,000</string>
+    <string id="Goal3500">3,500</string>
+    <string id="Goal4000">4,000</string>
+
+    <!-- Floors goals -->
+    <string id="Goal0">0</string>
+    <string id="Goal1">1</string>
+    <string id="Goal2">2</string>
+    <string id="Goal3">3</string>
+    <string id="Goal5">5</string>
+    <string id="Goal10">10</string>
+    <string id="Goal15">15</string>
+    <string id="Goal20">20</string>
+    <string id="Goal25">25</string>
+    <string id="Goal30">30</string>
+    <string id="Goal40">40</string>
+    <string id="Goal50">50</string>
+    <string id="Goal75">75</string>
+    <string id="Goal100">100</string>
+
+    <!-- Distance goals -->
+    <string id="Goal0_2km">0.2km</string>
+    <string id="Goal0_5km">0.5km</string>
+    <string id="Goal1km">1km</string>
+    <string id="Goal1_5km">1.5km</string>
+    <string id="Goal2km">2km</string>
+    <string id="Goal2_5km">2.5km</string>
+    <string id="Goal5km">5km</string>
+    <string id="Goal7_5km">7.5km</string>
+    <string id="Goal10km">10km</string>
+    <string id="Goal15km">15km</string>
+    <string id="Goal20km">20km</string>
+    <string id="Goal25km">25km</string>
+    <string id="Goal30km">30km</string>
+    <string id="Goal40km">40km</string>
+    <string id="Goal42km">42km</string>
+
+    <!-- Elevation goals -->
+    <string id="Goal5m">5m</string>
+    <string id="Goal10m">10m</string>
+    <string id="Goal20m">20m</string>
+    <string id="Goal30m">30m</string>
+    <string id="Goal50m">50m</string>
+    <string id="Goal100m">100m</string>
+    <string id="Goal200m">200m</string>
+    <string id="Goal500m">500m</string>
+    <string id="Goal1000m">1,000m</string>
+    <string id="Goal1500m">1,500m</string>
+    <string id="Goal2000m">2,000m</string>
+    <string id="Goal2500m">2,500m</string>
+    <string id="Goal3000m">3,000m</string>
+
+    <!-- Respiration goals -->
+    <string id="Goal10">10</string>
+    <string id="Goal12">12</string>
+    <string id="Goal14">14</string>
+    <string id="Goal16">16</string>
+    <string id="Goal18">18</string>
+    <string id="Goal20">20</string>
+    <string id="Goal22">22</string>
 
 </strings>

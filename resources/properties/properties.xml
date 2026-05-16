@@ -1,0 +1,23 @@
+<properties>
+
+    <property id="Arc1DataType" type="number">1</property>
+    <property id="Arc1Color" type="number">2</property>
+    <property id="Arc1Goal" type="number">0</property>
+
+    <property id="Arc2DataType" type="number">2</property>
+    <property id="Arc2Color" type="number">0</property>
+    <property id="Arc2Goal" type="number">0</property>
+
+    <property id="Arc3DataType" type="number">3</property>
+    <property id="Arc3Color" type="number">5</property>
+    <property id="Arc3Goal" type="number">0</property>
+
+    <property id="Arc4DataType" type="number">4</property>
+    <property id="Arc4Color" type="number">6</property>
+    <property id="Arc4Goal" type="number">0</property>
+
+    <property id="Arc5DataType" type="number">5</property>
+    <property id="Arc5Color" type="number">1</property>
+    <property id="Arc5Goal" type="number">0</property>
+
+</properties>

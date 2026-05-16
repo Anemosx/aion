@@ -101,4 +101,15 @@ module GlobalVariables {
     var gLastDayValue as Number or Null = null;
 
     var gSortedPolarArcs as Array<Dictionary<Symbol, Number or Graphics.ColorType>> or Null = null;
+
+    // --- Configurable Arc Settings ---
+    var gArcConfigurations as Array<Dictionary<Symbol, Number>> or Null = null;
+
+    var gFloorsClimbed as Number or Null = null;
+    var gFloorsClimbedGoal as Number or Null = null;
+    var gDistance as Float or Null = null;
+    var gDistanceGoal as Float or Null = null;
+    var gElevationGain as Float or Null = null;
+    var gElevationGainGoal as Float or Null = null;
+    var gRespirationRate as Float or Null = null;
 }
